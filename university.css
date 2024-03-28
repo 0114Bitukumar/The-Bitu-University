@@ -1,0 +1,88 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+h1{
+    font-size: 30px;
+    color: black;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+#nav{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -10%;
+    left: 30%;
+    gap: 50px;
+    font-weight: 100;
+    font-size: 12px;
+}
+#main #pf1{
+    position: absolute;
+    top: 20%;
+    left: 3%;
+    font-size: 60px;
+}
+#main #pf2{
+    position: absolute;
+    top: 30%;
+    left: 3%;
+    font-size: 60px;
+    color: red;
+}
+#main #pf3{
+    position: absolute;
+    top: 30%;
+    left: 17%;
+    font-size: 60px;
+}
+#main #pf4{
+    position: absolute;
+    top: 40%;
+    left: 3%;
+    font-size: 60px;
+}
+p{
+    position: absolute;
+    top: 52%;
+    left: 3%;
+    font-weight: 500;
+}
+button{
+    position: absolute;
+    top: 65%;
+    left: 3%;
+    padding: 15px 40px;
+    background-color: red;
+    border: none;
+    color: white;
+
+}
+button i{
+    position: absolute;
+    top: 30%;
+    font-size: 20px;
+}
+button:hover{
+    padding: 18px 50px;
+    background-color: #4bb544;
+    border: none;
+    font-size: 20px;
+}
+img{
+    position: absolute;
+    left: 57%;
+    width: 35%;
+}
